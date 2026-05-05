@@ -1,0 +1,18 @@
+# requirements.txt — EFD-REINF com Token A3 (PyKCS11)
+# ====================================================
+# Instale com: pip install -r requirements.txt
+#
+# IMPORTANTE: Use Python 64-bits!
+# Verifique com: python -c "import struct; print(struct.calcsize('P') * 8, 'bits')"
+
+# Acesso ao Token A3 via PKCS#11
+PyKCS11>=1.5.10
+
+# Criptografia e certificados X.509
+cryptography>=41.0.0
+
+# Manipulação XML (assinatura XMLDSig)
+lxml>=4.9.0
+
+# Requisições HTTP para a Receita Federal
+requests>=2.31.0
